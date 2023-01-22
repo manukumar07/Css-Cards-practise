@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: azure;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #343F4F; */
+}
+.pro-area{
+    padding: 80px 0;
+}
+.card{
+    box-shadow:0 0 30px rgba(0, 0, 0, 0.5) ;
+    overflow: hidden;
+    border-radius: 20px;
+    /* height: 400px; */
+
+}
+.img1 img{
+    height: 200px;
+    /* this height is used for background scenery images */
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 14opx;
+    height: 140px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-top: -80px;
+} 
+.card:hover .img2 img{
+    border-color: aqua;
+    transition: .7;
+}
+.main{
+    padding: 30px 0;
+    text-align: center;
+}
+.main h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0 0 20px;
+}
+
+/* css typing animation add  */
+/* .wrapper{
+    display: flex;
+  }
+  .wrapper .static-txt{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 60px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #343F4F;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  } */
+  /* end of this css typing animation */
+.main p{
+    font-size: 16px;
+    padding: 35px;
+}
+.social-icon{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social-icon i {
+        font-size: 30px;
+        color: darkcyan;
+        padding: 0 10px;
+}
+.main hr{
+    color: aquamarine;
+    border-bottom: 4px solid aqua;
+    
+}
+/* .wrapper{
+    display: flex;
+
+}
+.wrapper .static-text{
+    color: #fff;
+    font-size: 30spx;
+    font-weight: 400;
+
+}
+.wrapper .dynamic-text{
+    margin-left: 15px;
+    line-height: 30px;
+    height: 20px
+    overflow: hidden;
+}
+.dynamic-text li{
+    list-style: none;
+    color: rgb(230, 50, 14);
+    font-size: 30px;
+    font-weight: 500;
+    top: 0;
+    position: relative;
+    animation: slide 12s steps(3);
+}
+@keyframes slide{
+    100%{
+        top:-360px
+    }
+}
+.dynamic-text li{
+    position: relative;
+
+}
+.dynamic-text li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    border-left: 2px solid #ff4c29;
+    animation: typing 4s steps(20);
+    infinite;
+
+}@keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left:0;
+    }
+}
+ */
